@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	printf("\"Programming is like building a multilingual puzzle\"\n");
-        fprintf(stderr, "Length: %d\n", 56);
+	printf("\"Programming is like building a multilingual puzzle");
+        print("\n");
 	return (0);
 }
