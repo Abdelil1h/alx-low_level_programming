@@ -1,7 +1,4 @@
-
 #include <unistd.h>
-#include <fcntl.h>
-#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -10,15 +7,12 @@
  */
 int main(void)
 {
-    int len = 59;
-    int fd = 2; // File descriptor for standard error
-
-    char *msg = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-
-    ssize_t bytes_written = write(fd, msg, len);
+    ssize_t len = sizeof("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n") - 1;
+    ssize_t bytes_written = write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", len);
 
     if (bytes_written != len)
-        return (EXIT_FAILURE);
+        return (1);
 
-    return (EXIT_SUCCESS);
+    return (1);
 }
+
