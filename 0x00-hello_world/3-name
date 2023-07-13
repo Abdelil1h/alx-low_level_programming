@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc "$CFILE" -o cisfun && echo "Compilation successful. Executable 'cisfun' created." || echo "Compilation failed."
+gcc $CFILE -o cisfun
