@@ -3,7 +3,8 @@
 /**
  * main - Entry point of the program
  *
- * Description: This function prints the string "_putchar" followed by a newline character.
+ * Description: This function prints the string "_putchar"
+ *              followed by a newline character.
  *
  * Return: 0
  */
