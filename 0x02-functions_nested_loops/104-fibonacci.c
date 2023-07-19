@@ -2,7 +2,7 @@
 
 
 	/**
-	 * main - fibonacci Prints the first 98 Fibonacci numbers 3
+	 * main - Prints the first 98 Fibonacci numbers
 	 *
 	 * Purpose - no hardcode
 	 *
