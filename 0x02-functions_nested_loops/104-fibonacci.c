@@ -2,9 +2,8 @@
 
 
 	/**
+	 *This program prints the first 98 Fibonacci numbers Purpose - no hardcode
 	 * main - fibonacci <3
-	 *This program prints the first 98 Fibonacci numbers
-	 * Purpose - no hardcode
 	 *
 	 * Return:  (Success)
 	 */
