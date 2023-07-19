@@ -10,13 +10,12 @@ int main(void)
     unsigned long int num1 = 1, num2 = 2, fib;
     int i;
 
-    printf("%lu, %lu", num1, num2);
+    printf("%lu", num1);
 
-    for (i = 2; i < 98; i++)
+    for (i = 0; i < 97; i++)
     {
+        printf(", %lu", num2);
         fib = num1 + num2;
-        printf(", %lu", fib);
-
         num1 = num2;
         num2 = fib;
     }
@@ -25,6 +24,32 @@ int main(void)
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
